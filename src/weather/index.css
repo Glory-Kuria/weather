@@ -1,0 +1,12 @@
+.design{
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 35px;
+    color: rgb(120, 120, 230);
+    width: 1050px;
+    height: 700px;
+    margin-left: 390px;
+}
+.weatherForecast{
+    text-align: center;
+}
