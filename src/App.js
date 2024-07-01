@@ -9,7 +9,7 @@ function App() {
                 <h1>Weather Forecast App</h1>
             </header>
             <main>
-                <Weather /> {                                 }
+                <Weather/> {                                 }
             </main>
         </div>
     );

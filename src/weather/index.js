@@ -4,7 +4,7 @@ const baseUrl = 'https://api.weatherapi.com/v1';
 
 export const fetchWeather = async (location) => {
     try {
-        const response = await fetch(`${baseUrl}/current.json?key=c3d35e0332514049998142911242706&q=${location}`);
+        const response = await fetch(`${baseUrl}/current.json?key=c3d35e0332514049998142911242706&q=nairobi&aqi=no`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
